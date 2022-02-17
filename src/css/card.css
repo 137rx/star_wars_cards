@@ -1,0 +1,46 @@
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 3rem;
+    padding: 0rem;
+    align-content: center;
+
+}
+h4{
+    text-align: center;
+
+}
+.card-head {
+    background-color: yellow;
+    top:0;
+    margin-bottom:1rem;
+    padding: 0;
+    border: 0;
+}
+
+.card-body{
+   
+    text-align: center;
+}
+.card-title{
+
+    background-color: yellow;
+    margin-top: 0;
+    padding: 1rem 0.5rem;
+    min-width: 90%;
+    justify-content: center;
+   
+}
+
+.card-title:hover{
+
+  font-weight: bold;
+   cursor: pointer;
+
+}
+
+.highlight{
+    border: 2px solid orangered
+}
